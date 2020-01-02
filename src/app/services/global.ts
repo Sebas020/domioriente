@@ -1,3 +1,4 @@
 export var Global = {
-    url: 'http://api-rest-domioriente.com.devel/'
+    url: 'http://api-rest-domioriente.com.devel/',
+    name: 'Domioriente'
 };
