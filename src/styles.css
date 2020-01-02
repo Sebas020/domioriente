@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 0px;
+    margin: 0px;
+  }
+   
+  .form {
+    width: 450px;
+  }
+
+  .establecimientos div div div div div div div div img{
+    width: 7em;
+  }
+  .establecimientos div div div div div div div div p{
+    font-size: 1.2em;
+  }
+  .establecimientos div div div div div div .row{
+    background-image: radial-gradient(#DFC298 50%, #B59260);
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  .establecimientos {
+    background-color: #ddd;
+  }
+  @media(min-width:990px) {
+
+    .establecimientos{
+      background:url('/img/Establecimientos.png');
+      background-position: center;
+      background-size:100% auto;
+      background-repeat: no-repeat;color: #6b251b;
+      font-family: open sans;
+    }
+    .establecimientos div div div div div div{
+      padding: 0px;
+    }
+    .establecimientos-1{
+     padding-top: 12em;
+   }
+   .establecimientos div div div div div{
+    background-color: transparent;
+  }
+  .establecimientos div div div div div div .row{
+    background-image: none;
+    padding:0px;
+    margin:0px;
+    border-radius: none;
+  }
+}
